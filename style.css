@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#red, #purple, #blue{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10px;
+  width: 10px;
+  border: 2px solid black;
+  padding: 100px;
+  margin: 10px;
+  color: aliceblue;
+}
+#red{
+  background-color: red;
+}
+#purple{
+  background-color: purple;
+}
+#blue{
+  background-color: blue;
+}
+
+#form{
+  padding: 20px;
+}
+#form input, #form button{
+  margin: 5px;
+}
+table{
+  margin: 5px;
+  padding: 5px;
+}
+
+img{
+  width: 500px;
+}
+
+a{
+  margin: 0 5px;
+}
